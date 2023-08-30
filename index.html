@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,700&family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Inicio del estado de calificación -->
+    <section class="container">
+      <div class="container__icon">
+        <img class="container__icon__img" src="./images/icon-star.svg"
+          alt="icon">
+      </div>
+      <h2 class="container__titulo">How did we do?</h2>
+      <p class="container__parrafo"> Please let us know how we did with your
+        support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <div class="container__numeros">
+        <button class="container__numeros__num">1</button>
+        <button class="container__numeros__num">2</button>
+        <button class="container__numeros__num">3</button>
+        <button class="container__numeros__num">4</button>
+        <button class="container__numeros__num">5</button>
+      </div>
+      <div class="container__btn">
+        <button class="container__btn__enviar">Submit</button>
+      </div>
+      
+    </section>
+
+    <!-- Fin del estado de calificación -->
+
+    <!-- Gracias inicio del estado -->
+    <section class="container__gracias">
+      <img src="./images/illustration-thank-you.svg" alt="img_gracias"
+        class="container__img">
+      <div class="contianer__resultado">You selected <span
+          id="contianer__resultado_num">4</span> out of 5</div>
+      <h2 class="container__subtitulo"> Thank you!</h2>
+      <p class="container__gracias__parrafo"> We appreciate you taking the time to give a
+        rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </section>
+
+    <!-- Gracias fin de estado -->
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Del Prado Federico</a>.
+    </footer>
+
+    <script src="./main.js" async></script>
+  </body>
+</html>
